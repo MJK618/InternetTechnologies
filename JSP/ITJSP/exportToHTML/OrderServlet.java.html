@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>OrderServlet.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #e0957b;}
+.s1 { color: #c9c9d1;}
+.s2 { color: #c9c9d1;}
+.s3 { color: #e0957b; font-weight: bold;}
+.s4 { color: #62a362;}
+.ln { color: #575566; font-weight: normal; font-style: normal; }
+</style>
+</head>
+<body bgcolor="#1d1d26">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+OrderServlet.java</font>
+</center></td></tr></table>
+<pre><a name="l1"><span class="ln">1    </span></a><span class="s0">import </span><span class="s1">javax.servlet.</span><span class="s2">*</span><span class="s3">;</span>
+<a name="l2"><span class="ln">2    </span></a><span class="s0">import </span><span class="s1">javax.servlet.http.</span><span class="s2">*</span><span class="s3">;</span>
+<a name="l3"><span class="ln">3    </span></a><span class="s0">import </span><span class="s1">java.io.IOException</span><span class="s3">;</span>
+<a name="l4"><span class="ln">4    </span></a>
+<a name="l5"><span class="ln">5    </span></a><span class="s0">import </span><span class="s1">javax.servlet.annotation.</span><span class="s2">*</span><span class="s3">;</span>
+<a name="l6"><span class="ln">6    </span></a>
+<a name="l7"><span class="ln">7    </span></a><span class="s1">@WebServlet(name </span><span class="s2">= </span><span class="s4">&quot;OrderServlet&quot;</span><span class="s3">, </span><span class="s1">value </span><span class="s2">= </span><span class="s4">&quot;/OrderServlet&quot;</span><span class="s3">, </span><span class="s1">urlPatterns </span><span class="s2">= </span><span class="s1">{</span><span class="s4">&quot;/Q23&quot;</span><span class="s3">,</span><span class="s4">&quot;/order&quot;</span><span class="s1">})</span>
+<a name="l8"><span class="ln">8    </span></a>
+<a name="l9"><span class="ln">9    </span></a><span class="s0">public class </span><span class="s1">OrderServlet </span><span class="s0">extends </span><span class="s1">HttpServlet {</span>
+<a name="l10"><span class="ln">10   </span></a>    <span class="s1">@Override</span>
+<a name="l11"><span class="ln">11   </span></a>    <span class="s0">protected void </span><span class="s1">doGet(HttpServletRequest request</span><span class="s3">, </span><span class="s1">HttpServletResponse response) </span><span class="s0">throws </span><span class="s1">ServletException</span><span class="s3">, </span><span class="s1">IOException {</span>
+<a name="l12"><span class="ln">12   </span></a>        <span class="s1">getServletContext().getRequestDispatcher(</span><span class="s4">&quot;/GetUserInfo.jsp&quot;</span><span class="s1">).forward(request</span><span class="s3">,</span><span class="s1">response)</span><span class="s3">;</span>
+<a name="l13"><span class="ln">13   </span></a>    <span class="s1">}</span>
+<a name="l14"><span class="ln">14   </span></a>
+<a name="l15"><span class="ln">15   </span></a>    <span class="s1">@Override</span>
+<a name="l16"><span class="ln">16   </span></a>    <span class="s0">protected void </span><span class="s1">doPost(HttpServletRequest request</span><span class="s3">, </span><span class="s1">HttpServletResponse response) </span><span class="s0">throws </span><span class="s1">ServletException</span><span class="s3">, </span><span class="s1">IOException {</span>
+<a name="l17"><span class="ln">17   </span></a>
+<a name="l18"><span class="ln">18   </span></a>    <span class="s1">}</span>
+<a name="l19"><span class="ln">19   </span></a><span class="s1">}</span>
+<a name="l20"><span class="ln">20   </span></a></pre>
+</body>
+</html>

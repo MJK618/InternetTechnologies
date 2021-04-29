@@ -1,0 +1,52 @@
+<html>
+<head>
+<title>PatternServlet.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #e0957b;}
+.s1 { color: #c9c9d1;}
+.s2 { color: #e0957b; font-weight: bold;}
+.s3 { color: #c9c9d1;}
+.s4 { color: #62a362;}
+.s5 { color: #676773;}
+.ln { color: #575566; font-weight: normal; font-style: normal; }
+</style>
+</head>
+<body bgcolor="#1d1d26">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+PatternServlet.java</font>
+</center></td></tr></table>
+<pre><a name="l1"><span class="ln">1    </span></a><span class="s0">package </span><span class="s1">com.example.ITJSP</span><span class="s2">;</span>
+<a name="l2"><span class="ln">2    </span></a>
+<a name="l3"><span class="ln">3    </span></a><span class="s0">import </span><span class="s1">javax.servlet.</span><span class="s3">*</span><span class="s2">;</span>
+<a name="l4"><span class="ln">4    </span></a><span class="s0">import </span><span class="s1">javax.servlet.http.</span><span class="s3">*</span><span class="s2">;</span>
+<a name="l5"><span class="ln">5    </span></a><span class="s0">import </span><span class="s1">javax.servlet.annotation.</span><span class="s3">*</span><span class="s2">;</span>
+<a name="l6"><span class="ln">6    </span></a><span class="s0">import </span><span class="s1">java.io.IOException</span><span class="s2">;</span>
+<a name="l7"><span class="ln">7    </span></a><span class="s0">import </span><span class="s1">java.io.PrintWriter</span><span class="s2">;</span>
+<a name="l8"><span class="ln">8    </span></a>
+<a name="l9"><span class="ln">9    </span></a><span class="s1">@WebServlet(name </span><span class="s3">= </span><span class="s4">&quot;PatternServlet&quot;</span><span class="s2">, </span><span class="s1">value </span><span class="s3">= </span><span class="s4">&quot;/PatternServlet&quot;</span><span class="s2">, </span><span class="s1">urlPatterns </span><span class="s3">= </span><span class="s1">{</span><span class="s4">&quot;/Q18&quot;</span><span class="s1">})</span>
+<a name="l10"><span class="ln">10   </span></a><span class="s0">public class </span><span class="s1">PatternServlet </span><span class="s0">extends </span><span class="s1">HttpServlet {</span>
+<a name="l11"><span class="ln">11   </span></a>    <span class="s1">@Override</span>
+<a name="l12"><span class="ln">12   </span></a>    <span class="s0">protected void </span><span class="s1">doGet(HttpServletRequest request</span><span class="s2">, </span><span class="s1">HttpServletResponse response) </span><span class="s0">throws </span><span class="s1">ServletException</span><span class="s2">, </span><span class="s1">IOException {</span>
+<a name="l13"><span class="ln">13   </span></a>
+<a name="l14"><span class="ln">14   </span></a>        <span class="s1">response.setContentType(</span><span class="s4">&quot;text/html&quot;</span><span class="s1">)</span><span class="s2">;</span>
+<a name="l15"><span class="ln">15   </span></a>
+<a name="l16"><span class="ln">16   </span></a><span class="s5">//        // Hello</span>
+<a name="l17"><span class="ln">17   </span></a><span class="s5">//        PrintWriter out = response.getWriter();</span>
+<a name="l18"><span class="ln">18   </span></a><span class="s5">//        out.println(&quot;&lt;html&gt;&lt;body&gt;&quot;);</span>
+<a name="l19"><span class="ln">19   </span></a><span class="s5">//        out.println(&quot;&lt;h1&gt;&quot; + &quot;Display Pattern&quot; + &quot;&lt;/h1&gt;&quot;);</span>
+<a name="l20"><span class="ln">20   </span></a><span class="s5">//        out.println(&quot;&lt;/body&gt;&lt;/html&gt;&quot;);</span>
+<a name="l21"><span class="ln">21   </span></a>        <span class="s1">getServletContext().getRequestDispatcher(</span><span class="s4">&quot;/pattern.jsp&quot;</span><span class="s1">).forward(request</span><span class="s2">,</span><span class="s1">response)</span><span class="s2">;</span>
+<a name="l22"><span class="ln">22   </span></a>    <span class="s1">}</span>
+<a name="l23"><span class="ln">23   </span></a>
+<a name="l24"><span class="ln">24   </span></a>    <span class="s1">@Override</span>
+<a name="l25"><span class="ln">25   </span></a>    <span class="s0">protected void </span><span class="s1">doPost(HttpServletRequest request</span><span class="s2">, </span><span class="s1">HttpServletResponse response) </span><span class="s0">throws </span><span class="s1">ServletException</span><span class="s2">, </span><span class="s1">IOException {</span>
+<a name="l26"><span class="ln">26   </span></a>
+<a name="l27"><span class="ln">27   </span></a>
+<a name="l28"><span class="ln">28   </span></a>    <span class="s1">}</span>
+<a name="l29"><span class="ln">29   </span></a><span class="s1">}</span>
+<a name="l30"><span class="ln">30   </span></a></pre>
+</body>
+</html>
