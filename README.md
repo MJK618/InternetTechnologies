@@ -87,7 +87,7 @@ Then implement class Bank having an array list of accounts of type BankAccount. 
 ### JDBC
 
 [**16. Create a table 'Student' and ‘Teacher’ in 'College' database and insert two rows in this newly created table using JDBC API and do the following:**
-](jdbc/q16.md)
+](java/jdbc_1.java)
 
       a. Update an already created table 'Teacher' in 'College' database by updating a teacher's name, with "Dr." appended before the name, whose name is "Rita".
 
@@ -97,7 +97,7 @@ Then implement class Bank having an array list of accounts of type BankAccount. 
 
       d. Insert two students to the ResultSet returned by the query which selects all students with FirstName="Ayush".The database must also get updated along with ResultSet.
 
-[**17. Create a procedure in MySQL to count the number of Rows in table 'Student'. Use Callable Statement to call this method from Java code.**](jdbc/q17.md)
+[**17. Create a procedure in MySQL to count the number of Rows in table 'Student'. Use Callable Statement to call this method from Java code.**](java/jdbc_2.java)
 
 ### JSP
 
