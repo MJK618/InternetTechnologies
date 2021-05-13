@@ -65,7 +65,7 @@ Then implement class Bank having an array list of accounts of type BankAccount. 
 ### JAVASCRIPT
 
 [**13. Create a student registration form. Create functions to perform the following checks:**
-](javascript/q13.md)
+](JAVASCRIPT/javascript_1.html)
 
       a. Roll number is a 7-digit numeric value
 
@@ -73,10 +73,10 @@ Then implement class Bank having an array list of accounts of type BankAccount. 
 
       c. Non-empty fields like DOB
 
-[**14. Implement a static password protection.**](javascript/q14.md)
+[**14. Implement a static password protection.**](JAVASCRIPT/javascript_2.html)
 
 [**15. Write a java script**
-](javascript/q15.md)
+](JAVASCRIPT/javascript_3_a.html)
 
       a. To change the colour of text using SetTimeOut\(\)
 
