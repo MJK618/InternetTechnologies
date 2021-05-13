@@ -9,13 +9,13 @@ Internet Technologies
 
 [**1. Create HTML document with following formatting – Bold, Italics, Underline, Colors, Headings, Title, Font and Font Width, Background, Paragraph, Line Brakes, Horizontal Line, marquee text.**](HTML%20%26%20CSS/html-1.html)
 
-[**2. Create HTML document with Ordered and Unordered lists.**](html-and-css/q2.md)
+[**2. Create HTML document with Ordered and Unordered lists.**](HTML%20%26%20CSS/html-2.html)
 
-[**3. Create your time table using HTML tables.**](html-and-css/q3.md)
+[**3. Create your time table using HTML tables.**](HTML%20%26%20CSS/html-3.html)
 
-[**4. Create a Registration / Admission or Feedback Form with Input Type, Select and Text Area, Text Box, Option/radio buttons, Checkboxes, Reset and Submit buttons using HTML.**](html-and-css/q4.md)
+[**4. Create a Registration / Admission or Feedback Form with Input Type, Select and Text Area, Text Box, Option/radio buttons, Checkboxes, Reset and Submit buttons using HTML.**](HTML%20%26%20CSS/html-4.html)
 
-[**5. Create an HTML document \(having multiple frames\) showing horizontal and vertical frames having Internal and External links to different web pages. Apply CSS styles for formatting the webpages.**](html-and-css/q5.md)
+[**5. Create an HTML document \(having multiple frames\) showing horizontal and vertical frames having Internal and External links to different web pages. Apply CSS styles for formatting the webpages.**](HTML%20%26%20CSS/html-5.html)
 
 ### JAVA PROGRAMS
 
