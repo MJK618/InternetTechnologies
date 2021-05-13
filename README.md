@@ -7,7 +7,7 @@ Internet Technologies
 
 ### HTML & CSS
 
-[**1. Create HTML document with following formatting – Bold, Italics, Underline, Colors, Headings, Title, Font and Font Width, Background, Paragraph, Line Brakes, Horizontal Line, marquee text.**](html-and-css/q1.md)\*\*\*\*
+[**1. Create HTML document with following formatting – Bold, Italics, Underline, Colors, Headings, Title, Font and Font Width, Background, Paragraph, Line Brakes, Horizontal Line, marquee text.**](HTML%20%26%20CSS/html-1.html)
 
 [**2. Create HTML document with Ordered and Unordered lists.**](html-and-css/q2.md)
 
