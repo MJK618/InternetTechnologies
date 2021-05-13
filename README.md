@@ -19,20 +19,20 @@ Internet Technologies
 
 ### JAVA PROGRAMS
 
-[**6. Write a program to create an array of 10 integers. Accept values from the user in that array. Input another number from the user and find out how many numbers are equal to the number passed, how many are greater and how many are less than the number passed.**](java-programs/q6.md)
+[**6. Write a program to create an array of 10 integers. Accept values from the user in that array. Input another number from the user and find out how many numbers are equal to the number passed, how many are greater and how many are less than the number passed.**](java/java_1.java)
 
-[**7. Write java program for the following matrix operations:**](java-programs/q7.md)
+[**7. Write java program for the following matrix operations:**](java/java_2.java)
 
-_a.  Addition of two matrices_
+a.  Addition of two matrices_
 
-_b. Multiplication of two matrices_
+b. Multiplication of two matrices_
 
-_c. Transpose of a matrix          -- Take input of elements of matrices\(html-4.html\) from user._
+c. Transpose of a matrix          -- Take input of elements of matrices\(html-4.html\) from user.
 
-[**8. Write a java program that computes the area of a circle, rectangle and a Cylinder using function overloading.**](java-programs/q8.md)
+[**8. Write a java program that computes the area of a circle, rectangle and a Cylinder using function overloading.**](java/java_3.java)
 
 [**9. Implement a Bank Account having Instance variables: Account Number, Balance and having methods**
-](java-programs/q9.md)
+](java/java_4.java)
 
    - float Deposit \(float x\)
 
@@ -56,11 +56,11 @@ Then implement class Bank having an array list of accounts of type BankAccount. 
 
    - Count no. of accounts having atleast specific balance
 
-[**10. Write a program that reads two integer numbers for the variables a and b. If any other character except number \(0-9\) is entered then the error is caught by NumberFormatException object. After that ex.getMessage\(\) prints the information about the error occurring causes.**](java-programs/q10.md)
+[**10. Write a program that reads two integer numbers for the variables a and b. If any other character except number \(0-9\) is entered then the error is caught by NumberFormatException object. After that ex.getMessage\(\) prints the information about the error occurring causes.**](java/java_5.java)
 
-[**11. Create a class called Fraction that can be used to represent the ratio of two integers. Include appropriate constructors and methods. If the denominator becomes zero, throw and handle an exception**](java-programs/q11.md)
+[**11. Create a class called Fraction that can be used to represent the ratio of two integers. Include appropriate constructors and methods. If the denominator becomes zero, throw and handle an exception**](java/java_6.java)
 
-[**12. Create a base class called Shape. It should contain 2 methods getcoord\(\) and showcorrd \(\) to accept X and Y coordinates and to display the same respectively. Create a sub class called Rect. It should also contain a method to display the length and breadth of the rectangle called showCorrd\(\). In main method, execute the showCorrd\(\) method of the Rect class by applying the dynamic method dispatch concept.**](java-programs/q12.md)
+[**12. Create a base class called Shape. It should contain 2 methods getcoord\(\) and showcorrd \(\) to accept X and Y coordinates and to display the same respectively. Create a sub class called Rect. It should also contain a method to display the length and breadth of the rectangle called showCorrd\(\). In main method, execute the showCorrd\(\) method of the Rect class by applying the dynamic method dispatch concept.**](java/java_7.java)
 
 ### JAVASCRIPT
 
